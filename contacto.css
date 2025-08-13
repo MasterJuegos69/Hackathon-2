@@ -14,10 +14,12 @@
             font-weight: bold;
         }
         input, textarea, button {
-            padding: 8px;
-            font-size: 14px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+         padding: 8px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 50%;        /* Ocupa la mitad del espacio disponible */
+         box-sizing: border-box; /* Para que el padding y borde no aumenten el ancho */
         }
         button {
             background: #0073e6;
