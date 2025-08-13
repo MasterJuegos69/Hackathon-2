@@ -30,3 +30,8 @@
         button:hover {
             background: #005bb5;
         }
+        a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
